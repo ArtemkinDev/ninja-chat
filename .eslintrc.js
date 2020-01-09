@@ -23,7 +23,7 @@ module.exports = {
         indent: 0,
         'no-tabs': 0,
         'eol-last': 'off',
-        'comma-dangle': ['error', 'always'],
+        'comma-dangle': ['error', 'always-multiline'],
         'space-before-function-paren': ['error', 'never'],
         // allow async-await
         'generator-star-spacing': 'off',
