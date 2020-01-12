@@ -1,4 +1,4 @@
-import firebase from 'firebase'
+import firebase from 'firebase/app'
 // eslint-disable-next-line
 import firestore from 'firebase/firestore'
 
@@ -14,6 +14,5 @@ var firebaseConfig = {
 }
 // Initialize Firebase
 const firebaseApp = firebase.initializeApp(firebaseConfig)
-firebaseApp.firestore().settings({ timestampsInSnapshots: true })
 
 export default firebaseApp.firestore()
